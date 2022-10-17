@@ -108,3 +108,117 @@ body{
   justify-content: space-between;
   align-items: center;
 }
+
+.subscription_title{
+  margin-bottom: 38px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 57px;
+  letter-spacing: -1.56316px;
+  color: #19191B;
+}
+
+.subscription input{
+  box-sizing: border-box;
+  width: 302px;
+  height: 60px;
+  border: 1px solid #7087FF;
+  border-radius: 10px;
+  margin-right: 39px;
+  padding-left: 14px;
+}
+
+.subscription input::placeholder, .subscription input{
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -0.531474px;
+  color: #000000;
+}
+
+.subscription input:focus{
+  outline: none;
+}
+
+.subscription{
+  margin-bottom: 85px;
+}
+
+.plan_title{
+  max-width: 504px;
+  margin-bottom: 98px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -1.87579px;
+  color: #19191B;
+}
+
+.plan{
+  margin-bottom: 132px;
+}
+
+.abonement{
+  text-align: center;
+  background: #F8F8F8;
+  border-radius: 10px;
+  width: 330px;
+}
+
+.abonement_title{
+  margin: 34px 0 22px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.562737px;
+  color: #696871;
+}
+
+.abonement>p+p{
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 56px;
+  letter-spacing: -1.03448px;
+  color: #1D293F;
+  margin-bottom: 28px;
+}
+
+.abonement>p+p span{
+  font-size: 30px;
+}
+
+.abonement_li{
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 50px;
+  letter-spacing: -0.531474px;
+  color: #696871;
+  }
+
+  .abonement_button{
+  background: #FFFFFF;
+  border: 1px solid #EAE9F2;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -0.531474px;
+  color: #5454D4;
+  margin: 36px auto 27px;
+  }
+
+  .abonement:hover{
+  background: #FF7143;
+  box-shadow: 0px 32px 34px rgba(255, 112, 59, 0.317827);
+  transition: .5s;
+  }
+
+  .abonement:hover .abonement_title, .abonement:hover p, .abonement:hover .abonement_li, .abonement:hover .abonement_button{
+  color: #FFFFFF;
+  transition: .5s;
+  }
+
+  .abonement:hover .abonement_button{
+  background: #9F3919;
+  border: none;
+  transition: .5s;
+  }
